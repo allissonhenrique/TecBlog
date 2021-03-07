@@ -12,14 +12,49 @@ body {
 }
 
 /* Layout */
-#area-cabecalho {
+#cabecalho {
     background-color: #f7b600;
     padding: 15px;
     text-align: center;
+
 }
 
-#area-log, #area-menu {
+#logo, #menu {
     padding: 10px;
+}
+
+#principal {
+    background: white;
+    width: 920px;
+    margin: 0px auto;
+}
+
+#postagens, #lateral {
+    background: orange;
+}
+
+#postagens {
+    width: 660px;
+    float: left;
+}
+
+#lateral {
+    width: 240px;
+    float: right;
+    
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#rodape {
+    background-color: #ccc;
+    clear: both;
+    text-align: center;
+    padding: 15px;
 }
 
 /* Formatação do menu */
