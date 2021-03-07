@@ -24,13 +24,10 @@ body {
 }
 
 #principal {
-    background: white;
+    /* background: white; */
     width: 920px;
     margin: 0px auto;
-}
-
-#postagens, #lateral {
-    background: orange;
+    padding: 15px;
 }
 
 #postagens {
@@ -41,7 +38,6 @@ body {
 #lateral {
     width: 240px;
     float: right;
-    
 }
 
 .postagem {
@@ -50,11 +46,28 @@ body {
     background-color: white;
 }
 
+.conteudo-lateral {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.conteudo-lateral a {
+    display: block;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
+
 #rodape {
-    background-color: #ccc;
+
     clear: both;
     text-align: center;
     padding: 15px;
+    background-color: #ccc;
 }
 
 /* Formatação do menu */
@@ -63,13 +76,27 @@ a {
     text-decoration: none;
 }
 a:link, a:visited {
-    color: #fff;
-    padding: 8px 12px;
+    color: #f7b600;
 }
 
 a:hover {
+    text-decoration: underline;
+}
+
+#cabecalho a {
+    border-radius: 5px;
+    
+}
+#cabecalho a:link, #cabecalho a:visited {
+    color: #fff;
+    padding: 3px 8px
+}
+
+#cabecalho a:hover {
     color: #f7b600;
     background: #fff;
+    text-decoration: none;
+    box-shadow: 5px 2px 7px black;
 }
 
 /* Formatações gerais */
@@ -77,6 +104,35 @@ h1 {
     color: #4e4e4e;
     font-size: 2.5em;
 }
+
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+}
+
 .branco {
     color: white;
 }
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.jogos {
+    border: 10px solid #c3c3ae;
+}
+
+ img  {
+    width:300px;
+    height:350px;
+}
+
+
